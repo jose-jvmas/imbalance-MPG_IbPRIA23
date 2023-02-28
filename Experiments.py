@@ -44,7 +44,6 @@ classifiers = ['MLkNN']
 
 # Corpora for the experiments:
 corpora = ['bibtex', 'birds', 'Corel5k', 'emotions', 'genbase', 'medical', 'rcv1subset1', 'rcv1subset2', 'rcv1subset3', 'rcv1subset4', 'scene', 'yeast']
-corpora = ['rcv1subset1', 'rcv1subset2', 'rcv1subset3', 'rcv1subset4', 'scene', 'yeast']
 
 # Cases to compute:
 excluding_imbalance_cases = ['Base', 'ExcludingSamples']

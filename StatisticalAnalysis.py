@@ -90,10 +90,6 @@ if __name__ == '__main__':
         'LowImbalance' : ['emotions', 'scene', 'birds', 'yeast', 'bibtex'],
         'HighImbalance' : ['genbase', 'medical', 'Corel5k', 'rcv1subset1', 'rcv1subset2', 'rcv1subset3', 'rcv1subset4']
     }
-    Imbalance_cases = {
-        'LowImbalance' : ['emotions', 'birds', 'bibtex'],
-        'HighImbalance' : ['genbase', 'medical', 'Corel5k']
-    }
 
     fout = open(os.path.join(dst_path, 'FriedmanTest.txt'), 'w')
     fout.write('Imbalance,Method,p-value\n')
