@@ -12,9 +12,9 @@ Extensions to different Multilabel Prototype Generation methods to deal with imb
  
 ## Contents
 - *MPG/* : Contains the implementations of the base multilabel Prototype Generation methods together with the proposed extensions. These methods are (together with their original reference):
--- Multilabel Reduction through Homogeneous Clustering (MRHC) [^1]
--- Multilabel Chen (MChen) [^2]
--- Multilabel Reduction through Space Partitioning, version 3 (MRSP3) [^2]
+	- Multilabel Reduction through Homogeneous Clustering (MRHC) [^1]
+	- Multilabel Chen (MChen) [^2]
+	- Multilabel Reduction through Space Partitioning, version 3 (MRSP3) [^2]
 - *Experiments.py* : Main script for performing the experimentation included in the manuscript.
 - *Metrics.py*: Class including the evaluation metrics.
 - *StatisticalAnalysis.py*: Script prepared for performing the statistical analysis once the results have been obtained.
