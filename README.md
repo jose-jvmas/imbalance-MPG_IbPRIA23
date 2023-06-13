@@ -1,12 +1,15 @@
 # Addressing class imbalance in Multilabel Prototype Generation for k-Nearest Neighbor classification
 
 ## Authors
- Carlos Penarrubia, Jose J. Valero-Mas, Antonio Javier Gallego, and Jorge Calvo-Zaragoza
+ Carlos Penarrubia<sup>&dagger;</sup>, Jose J. Valero-Mas<sup>&dagger;,&Dagger;</sup>, Antonio Javier Gallego<sup>&dagger;</sup>, and Jorge Calvo-Zaragoza<sup>&dagger;</sup>
  
-*University Institute for Computer Research, University of Alicante, Spain*
+&dagger;*University Institute for Computer Research, University of Alicante, Alicante, Spain*
+
+&Dagger;*Music Technology Group, Universitat Pompeu Fabra, Barcelona, Spain*
+
  
 ## Description
-Extensions to different Multilabel Prototype Generation methods to deal with imbalance data. Work submitted to the *Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA) 2023*.
+Extensions to different Multilabel Prototype Generation methods to deal with imbalance data. Work accepted at the *Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA) 2023*.
  
 
  
