@@ -78,6 +78,24 @@ def parse_arguments():
     return args
 
 
+""" Writing results into CSV """
+def write_results_file(dst_results_file: str, res_dict: dict):
+
+    # Writing results:
+    if os.path.isfile(dst_results_file):
+        in_file = pd.read_csv(dst_results_file)
+        out_file = pd.concat([in_file, pd.DataFrame([res_dict])], ignore_index=True)
+    else:
+        out_file = pd.DataFrame([res_dict])
+    
+    out_file.to_csv(dst_results_file, index=False)
+    return
+
+
+
+
+
+
 """ Main function for the experiments """
 def experiments(res_dict, excluding_imbalance_case, corpus_name, norm_corpus):
 
@@ -146,12 +164,8 @@ def experiments(res_dict, excluding_imbalance_case, corpus_name, norm_corpus):
                         res_dict['Size'] = 100*X_red.shape[0]/X_train.shape[0]
 
                         # Writing results:
-                        if os.path.isfile(dst_results_file):
-                            in_file = pd.read_csv(dst_results_file)
-                            out_file = in_file.append(res_dict, ignore_index=True)
-                        else:
-                            out_file = pd.DataFrame([res_dict])
-                        out_file.to_csv(dst_results_file,index=False)
+                        write_results_file(dst_results_file, res_dict)
+
                         pass
                     pass
                 pass
