@@ -2,9 +2,9 @@
 
 **Carlos Penarrubia<sup>&dagger;</sup>, Jose J. Valero-Mas<sup>&dagger;,&Dagger;</sup>, Antonio Javier Gallego<sup>&dagger;</sup>, and Jorge Calvo-Zaragoza<sup>&dagger;</sup>**
  
-&dagger;*University Institute for Computer Research, University of Alicante, Alicante, Spain*
+&dagger; *University Institute for Computer Research, University of Alicante, Alicante, Spain*
 
-&Dagger;*Music Technology Group, Universitat Pompeu Fabra, Barcelona, Spain*
+&Dagger; *Music Technology Group, Universitat Pompeu Fabra, Barcelona, Spain*
 
 <pre>
 @inproceedings{Penarrubia2023,
